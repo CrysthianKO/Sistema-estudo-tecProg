@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ProjetoTecProg.dir/src/main.cpp.o CMakeFiles/ProjetoTecProg.dir/src/principal.cpp.o -o ProjetoTecProg 

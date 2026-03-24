@@ -1,0 +1,3 @@
+/home/crys/tec-prog/projeto-facul/build/CMakeFiles/ProjetoTecProg.dir
+/home/crys/tec-prog/projeto-facul/build/CMakeFiles/edit_cache.dir
+/home/crys/tec-prog/projeto-facul/build/CMakeFiles/rebuild_cache.dir
