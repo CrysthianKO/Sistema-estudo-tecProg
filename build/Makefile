@@ -153,6 +153,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/pessoa.o: src/pessoa.cpp.o
+.PHONY : src/pessoa.o
+
+# target to build an object file
+src/pessoa.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/pessoa.cpp.o
+.PHONY : src/pessoa.cpp.o
+
+src/pessoa.i: src/pessoa.cpp.i
+.PHONY : src/pessoa.i
+
+# target to preprocess a source file
+src/pessoa.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/pessoa.cpp.i
+.PHONY : src/pessoa.cpp.i
+
+src/pessoa.s: src/pessoa.cpp.s
+.PHONY : src/pessoa.s
+
+# target to generate assembly for a file
+src/pessoa.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/pessoa.cpp.s
+.PHONY : src/pessoa.cpp.s
+
 src/principal.o: src/principal.cpp.o
 .PHONY : src/principal.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/pessoa.o"
+	@echo "... src/pessoa.i"
+	@echo "... src/pessoa.s"
 	@echo "... src/principal.o"
 	@echo "... src/principal.i"
 	@echo "... src/principal.s"

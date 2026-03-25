@@ -4,9 +4,11 @@
 class Principal
 {
 private:
-  Pessoa maculudu ();
-
-
+  Pessoa Crysthian;
+  int diaAtual;
+  int mesAtual;
+  int anoAtual;
+  
 public:
   Principal();
   ~Principal();

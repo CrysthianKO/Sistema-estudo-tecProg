@@ -10,5 +10,11 @@
   "command": "/usr/bin/c++  -I/home/crys/tec-prog/projeto-facul/include  -o CMakeFiles/ProjetoTecProg.dir/src/principal.cpp.o -c /home/crys/tec-prog/projeto-facul/src/principal.cpp",
   "file": "/home/crys/tec-prog/projeto-facul/src/principal.cpp",
   "output": "CMakeFiles/ProjetoTecProg.dir/src/principal.cpp.o"
+},
+{
+  "directory": "/home/crys/tec-prog/projeto-facul/build",
+  "command": "/usr/bin/c++  -I/home/crys/tec-prog/projeto-facul/include  -o CMakeFiles/ProjetoTecProg.dir/src/pessoa.cpp.o -c /home/crys/tec-prog/projeto-facul/src/pessoa.cpp",
+  "file": "/home/crys/tec-prog/projeto-facul/src/pessoa.cpp",
+  "output": "CMakeFiles/ProjetoTecProg.dir/src/pessoa.cpp.o"
 }
 ]

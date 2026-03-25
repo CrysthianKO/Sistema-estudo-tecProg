@@ -81,12 +81,12 @@ clean: CMakeFiles/ProjetoTecProg.dir/clean
 CMakeFiles/ProjetoTecProg.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/crys/tec-prog/projeto-facul/build/CMakeFiles --progress-num=1,2,3 "Built target ProjetoTecProg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/crys/tec-prog/projeto-facul/build/CMakeFiles --progress-num=1,2,3,4 "Built target ProjetoTecProg"
 .PHONY : CMakeFiles/ProjetoTecProg.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ProjetoTecProg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/crys/tec-prog/projeto-facul/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/crys/tec-prog/projeto-facul/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ProjetoTecProg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/crys/tec-prog/projeto-facul/build/CMakeFiles 0
 .PHONY : CMakeFiles/ProjetoTecProg.dir/rule

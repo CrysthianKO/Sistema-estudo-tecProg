@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ProjetoTecProg.dir/src/main.cpp.o"
   "CMakeFiles/ProjetoTecProg.dir/src/main.cpp.o.d"
+  "CMakeFiles/ProjetoTecProg.dir/src/pessoa.cpp.o"
+  "CMakeFiles/ProjetoTecProg.dir/src/pessoa.cpp.o.d"
   "CMakeFiles/ProjetoTecProg.dir/src/principal.cpp.o"
   "CMakeFiles/ProjetoTecProg.dir/src/principal.cpp.o.d"
   "ProjetoTecProg"

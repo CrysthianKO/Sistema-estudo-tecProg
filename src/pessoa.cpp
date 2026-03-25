@@ -3,9 +3,13 @@
 #include "stdafx.hpp"
 
 Pessoa::Pessoa(){
-   
+  Inicializa(0, 0, 0);
 }
 Pessoa::Pessoa(int diaNa, int mesNa, int anoNa,const char* nome){
+  Inicializa(diaNa, mesNa,anoNa,nome);
+}
+
+void Pessoa::Inicializa(int diaNa, int mesNa, int anoNa, const char* nome){
   diaP = diaNa;
   mesP = mesNa;
   anoP = anoNa;
@@ -48,9 +52,15 @@ char* Pessoa::getNome(){
   return nomeP;
 }
 
-void Pessoa::setId(int id){
-  idP = id;
+void Pessoa::setId(int n){
+  id = n;
 }
 int Pessoa::getId(){
-  return idP;
+  return id;
 }
+
+void Pessoa::setUnivFiliado(Universidade *pu){
+  pUnivFiliado = pu;
+}
+
+  void ondeTrabalho();
