@@ -7,6 +7,10 @@ set(SOURCES
   src/main.cpp
   src/principal.cpp
   src/pessoa.cpp
+  src/universidade.cpp
+  src/departamento.cpp
+  src/professor.cpp
+  src/aluno.cpp
 )
 
 

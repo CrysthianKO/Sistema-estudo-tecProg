@@ -1,27 +1,27 @@
 #pragma once
+#include "departamento.hpp"
 #include "universidade.hpp"
 
-class Pessoa
-{
-private:
+class Pessoa {
+ protected:
   int id;
-  int diaP; int mesP; int anoP; int idadeP;
+  int diaP;
+  int mesP;
+  int anoP;
+  int idadeP;
   char nomeP[30];
 
-  Universidade* pUnivFiliado;
+ public:
+  Pessoa(int diaNa, int mesNa, int anoNa, const char* nome = "");
+  Pessoa();
+  ~Pessoa();
 
-public:
-  Pessoa(int diaNa, int mesNa, int anoNa,const char* nome = "");
-  Pessoa ( );
-  ~Pessoa ( );
   void Inicializa(int diaNa, int mesNa, int anoNa, const char* nome = "");
   void CalculaIdade(int diaAt, int mesAt, int aniAt);
   int informaIdade();
+
   void setNome(const char* nome);
   char* getNome();
   void setId(int n);
   int getId();
-
-  void setUnivFiliado(Universidade* pu);
-  void ondeTrabalho();
 };

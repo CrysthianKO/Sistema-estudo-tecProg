@@ -1,21 +1,16 @@
 #pragma once
 
 #include "pessoa.hpp"
-#include "universidade.hpp"
 
-class Professor : public Pessoa
-{
-  private:
-    //Universidade * pUniFiliado;
+class Professor : public Pessoa {
+ private:
+  Universidade* pUniFiliado;
+  Departamento* pDepFiliado;
 
-  public:
-  
-    Professor( int diaNa, int mesNa, int anoNa, char* nome= "" );
-    Professor ( );
-    ~Professor ( );
-    //void setUnivFiliado (Universidade* pu);
-  //  void setDepartamento(Departamento* pdpto);
-    void OndeTrabalho ( );
-    void QualDepartamentoTrabalho ( );
-  
+ public:
+  ~Professor();
+  void setUniversidade(Universidade* pu);
+  void setDepartamento(Departamento* pdpto);
+  void OndeTrabalho();
+  void QualDepartamentoTrabalho();
 };

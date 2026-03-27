@@ -129,6 +129,54 @@ ProjetoTecProg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/build
 .PHONY : ProjetoTecProg/fast
 
+src/aluno.o: src/aluno.cpp.o
+.PHONY : src/aluno.o
+
+# target to build an object file
+src/aluno.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.o
+.PHONY : src/aluno.cpp.o
+
+src/aluno.i: src/aluno.cpp.i
+.PHONY : src/aluno.i
+
+# target to preprocess a source file
+src/aluno.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.i
+.PHONY : src/aluno.cpp.i
+
+src/aluno.s: src/aluno.cpp.s
+.PHONY : src/aluno.s
+
+# target to generate assembly for a file
+src/aluno.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.s
+.PHONY : src/aluno.cpp.s
+
+src/departamento.o: src/departamento.cpp.o
+.PHONY : src/departamento.o
+
+# target to build an object file
+src/departamento.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.o
+.PHONY : src/departamento.cpp.o
+
+src/departamento.i: src/departamento.cpp.i
+.PHONY : src/departamento.i
+
+# target to preprocess a source file
+src/departamento.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.i
+.PHONY : src/departamento.cpp.i
+
+src/departamento.s: src/departamento.cpp.s
+.PHONY : src/departamento.s
+
+# target to generate assembly for a file
+src/departamento.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.s
+.PHONY : src/departamento.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -201,6 +249,54 @@ src/principal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/principal.cpp.s
 .PHONY : src/principal.cpp.s
 
+src/professor.o: src/professor.cpp.o
+.PHONY : src/professor.o
+
+# target to build an object file
+src/professor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.o
+.PHONY : src/professor.cpp.o
+
+src/professor.i: src/professor.cpp.i
+.PHONY : src/professor.i
+
+# target to preprocess a source file
+src/professor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.i
+.PHONY : src/professor.cpp.i
+
+src/professor.s: src/professor.cpp.s
+.PHONY : src/professor.s
+
+# target to generate assembly for a file
+src/professor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.s
+.PHONY : src/professor.cpp.s
+
+src/universidade.o: src/universidade.cpp.o
+.PHONY : src/universidade.o
+
+# target to build an object file
+src/universidade.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.o
+.PHONY : src/universidade.cpp.o
+
+src/universidade.i: src/universidade.cpp.i
+.PHONY : src/universidade.i
+
+# target to preprocess a source file
+src/universidade.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.i
+.PHONY : src/universidade.cpp.i
+
+src/universidade.s: src/universidade.cpp.s
+.PHONY : src/universidade.s
+
+# target to generate assembly for a file
+src/universidade.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.s
+.PHONY : src/universidade.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,6 +306,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ProjetoTecProg"
+	@echo "... src/aluno.o"
+	@echo "... src/aluno.i"
+	@echo "... src/aluno.s"
+	@echo "... src/departamento.o"
+	@echo "... src/departamento.i"
+	@echo "... src/departamento.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -219,6 +321,12 @@ help:
 	@echo "... src/principal.o"
 	@echo "... src/principal.i"
 	@echo "... src/principal.s"
+	@echo "... src/professor.o"
+	@echo "... src/professor.i"
+	@echo "... src/professor.s"
+	@echo "... src/universidade.o"
+	@echo "... src/universidade.i"
+	@echo "... src/universidade.s"
 .PHONY : help
 
 

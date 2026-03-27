@@ -1,18 +1,20 @@
 #pragma once
-#include "universidade.hpp"
+class Universidade;
 
-class Departamento
-{
-  private:
-    int id;
-    Universidade* pUniv;
+class Departamento {
+ private:
+  int id;
+  char nome[100];
+  Universidade* pUniversidade;
 
-  public:
-    Departamento();
-    ~Departamento();
-    void setUniversidade ( Universidade* pu );
-    Universidade* getUniversidade ( );
-    void incluaDisciplina ( Disciplina* pd );
-    void listeDisciplinas ( );
+ public:
+  Departamento(int i);
+  Departamento();
+  ~Departamento();
+  void setNome(const char* n);
+  char* getNome();
+  void setUniversidade(Universidade* pu);
+  Universidade* getUniversidade();
 
+  void listeDisciplinas();
 };

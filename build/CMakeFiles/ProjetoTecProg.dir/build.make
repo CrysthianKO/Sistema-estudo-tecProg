@@ -111,11 +111,71 @@ CMakeFiles/ProjetoTecProg.dir/src/pessoa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ProjetoTecProg.dir/src/pessoa.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/crys/tec-prog/projeto-facul/src/pessoa.cpp -o CMakeFiles/ProjetoTecProg.dir/src/pessoa.cpp.s
 
+CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.o: CMakeFiles/ProjetoTecProg.dir/flags.make
+CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.o: /home/crys/tec-prog/projeto-facul/src/universidade.cpp
+CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.o: CMakeFiles/ProjetoTecProg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/crys/tec-prog/projeto-facul/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.o -MF CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.o.d -o CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.o -c /home/crys/tec-prog/projeto-facul/src/universidade.cpp
+
+CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/crys/tec-prog/projeto-facul/src/universidade.cpp > CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.i
+
+CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/crys/tec-prog/projeto-facul/src/universidade.cpp -o CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.s
+
+CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.o: CMakeFiles/ProjetoTecProg.dir/flags.make
+CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.o: /home/crys/tec-prog/projeto-facul/src/departamento.cpp
+CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.o: CMakeFiles/ProjetoTecProg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/crys/tec-prog/projeto-facul/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.o -MF CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.o.d -o CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.o -c /home/crys/tec-prog/projeto-facul/src/departamento.cpp
+
+CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/crys/tec-prog/projeto-facul/src/departamento.cpp > CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.i
+
+CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/crys/tec-prog/projeto-facul/src/departamento.cpp -o CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.s
+
+CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.o: CMakeFiles/ProjetoTecProg.dir/flags.make
+CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.o: /home/crys/tec-prog/projeto-facul/src/professor.cpp
+CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.o: CMakeFiles/ProjetoTecProg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/crys/tec-prog/projeto-facul/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.o -MF CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.o.d -o CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.o -c /home/crys/tec-prog/projeto-facul/src/professor.cpp
+
+CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/crys/tec-prog/projeto-facul/src/professor.cpp > CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.i
+
+CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/crys/tec-prog/projeto-facul/src/professor.cpp -o CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.s
+
+CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.o: CMakeFiles/ProjetoTecProg.dir/flags.make
+CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.o: /home/crys/tec-prog/projeto-facul/src/aluno.cpp
+CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.o: CMakeFiles/ProjetoTecProg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/crys/tec-prog/projeto-facul/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.o -MF CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.o.d -o CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.o -c /home/crys/tec-prog/projeto-facul/src/aluno.cpp
+
+CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/crys/tec-prog/projeto-facul/src/aluno.cpp > CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.i
+
+CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/crys/tec-prog/projeto-facul/src/aluno.cpp -o CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.s
+
 # Object files for target ProjetoTecProg
 ProjetoTecProg_OBJECTS = \
 "CMakeFiles/ProjetoTecProg.dir/src/main.cpp.o" \
 "CMakeFiles/ProjetoTecProg.dir/src/principal.cpp.o" \
-"CMakeFiles/ProjetoTecProg.dir/src/pessoa.cpp.o"
+"CMakeFiles/ProjetoTecProg.dir/src/pessoa.cpp.o" \
+"CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.o" \
+"CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.o" \
+"CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.o" \
+"CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.o"
 
 # External object files for target ProjetoTecProg
 ProjetoTecProg_EXTERNAL_OBJECTS =
@@ -123,9 +183,13 @@ ProjetoTecProg_EXTERNAL_OBJECTS =
 ProjetoTecProg: CMakeFiles/ProjetoTecProg.dir/src/main.cpp.o
 ProjetoTecProg: CMakeFiles/ProjetoTecProg.dir/src/principal.cpp.o
 ProjetoTecProg: CMakeFiles/ProjetoTecProg.dir/src/pessoa.cpp.o
+ProjetoTecProg: CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.o
+ProjetoTecProg: CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.o
+ProjetoTecProg: CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.o
+ProjetoTecProg: CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.o
 ProjetoTecProg: CMakeFiles/ProjetoTecProg.dir/build.make
 ProjetoTecProg: CMakeFiles/ProjetoTecProg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/crys/tec-prog/projeto-facul/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ProjetoTecProg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/crys/tec-prog/projeto-facul/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ProjetoTecProg"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ProjetoTecProg.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,13 +1,15 @@
-class Universidade
-{
-  private:
-    char nome[30];
-    //departamento
-  public:
-  
-  Universidade(const char* n = "");
+#pragma once
+#include "departamento.hpp"
+
+class Universidade {
+ private:
+  char nome[30];
+  Departamento* dpto;
+
+ public:
   Universidade();
   ~Universidade();
-  void setNome(char* n);
+  void setNome(const char* n);
   char* getNome();
+  void setDepartamento(Departamento* pdep);
 };

@@ -8,9 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/crys/tec-prog/projeto-facul/src/aluno.cpp" "CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.o" "gcc" "CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.o.d"
+  "/home/crys/tec-prog/projeto-facul/src/departamento.cpp" "CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.o" "gcc" "CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.o.d"
   "/home/crys/tec-prog/projeto-facul/src/main.cpp" "CMakeFiles/ProjetoTecProg.dir/src/main.cpp.o" "gcc" "CMakeFiles/ProjetoTecProg.dir/src/main.cpp.o.d"
   "/home/crys/tec-prog/projeto-facul/src/pessoa.cpp" "CMakeFiles/ProjetoTecProg.dir/src/pessoa.cpp.o" "gcc" "CMakeFiles/ProjetoTecProg.dir/src/pessoa.cpp.o.d"
   "/home/crys/tec-prog/projeto-facul/src/principal.cpp" "CMakeFiles/ProjetoTecProg.dir/src/principal.cpp.o" "gcc" "CMakeFiles/ProjetoTecProg.dir/src/principal.cpp.o.d"
+  "/home/crys/tec-prog/projeto-facul/src/professor.cpp" "CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.o" "gcc" "CMakeFiles/ProjetoTecProg.dir/src/professor.cpp.o.d"
+  "/home/crys/tec-prog/projeto-facul/src/universidade.cpp" "CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.o" "gcc" "CMakeFiles/ProjetoTecProg.dir/src/universidade.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
