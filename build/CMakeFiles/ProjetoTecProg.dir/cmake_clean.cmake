@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.o.d"
   "CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.o"
   "CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.o.d"
+  "CMakeFiles/ProjetoTecProg.dir/src/disciplina.cpp.o"
+  "CMakeFiles/ProjetoTecProg.dir/src/disciplina.cpp.o.d"
   "CMakeFiles/ProjetoTecProg.dir/src/main.cpp.o"
   "CMakeFiles/ProjetoTecProg.dir/src/main.cpp.o.d"
   "CMakeFiles/ProjetoTecProg.dir/src/pessoa.cpp.o"

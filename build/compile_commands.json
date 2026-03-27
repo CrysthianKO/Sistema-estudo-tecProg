@@ -40,5 +40,11 @@
   "command": "/usr/bin/c++  -I/home/crys/tec-prog/projeto-facul/include  -o CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.o -c /home/crys/tec-prog/projeto-facul/src/aluno.cpp",
   "file": "/home/crys/tec-prog/projeto-facul/src/aluno.cpp",
   "output": "CMakeFiles/ProjetoTecProg.dir/src/aluno.cpp.o"
+},
+{
+  "directory": "/home/crys/tec-prog/projeto-facul/build",
+  "command": "/usr/bin/c++  -I/home/crys/tec-prog/projeto-facul/include  -o CMakeFiles/ProjetoTecProg.dir/src/disciplina.cpp.o -c /home/crys/tec-prog/projeto-facul/src/disciplina.cpp",
+  "file": "/home/crys/tec-prog/projeto-facul/src/disciplina.cpp",
+  "output": "CMakeFiles/ProjetoTecProg.dir/src/disciplina.cpp.o"
 }
 ]

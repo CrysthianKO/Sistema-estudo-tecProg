@@ -1,14 +1,20 @@
 #pragma once
-#include "aluno.hpp"
 #include "professor.hpp"
 
 class Principal {
  private:
   Professor Crysthian;
-  Aluno Simao;
+  Professor Simao;
 
   Universidade UTFPR;
+  Universidade UNIR;
+
   Departamento DAELN;
+  Departamento LetrasUNIR;
+
+  Disciplina comp1;
+  Disciplina comp2;
+  Disciplina matematica;
 
   int diaAtual;
   int mesAtual;
@@ -17,6 +23,13 @@ class Principal {
  public:
   Principal();
   ~Principal();
+
+  void inicializa();
+  void inicializaUniversidades();
+  void inicializaDepartamentos();
+  void inicializaProfessores();
+  void inicializaDisciplinas();
+
   void Executar();
   void setupTime();
 };

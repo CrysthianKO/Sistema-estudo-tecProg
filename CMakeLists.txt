@@ -11,6 +11,7 @@ set(SOURCES
   src/departamento.cpp
   src/professor.cpp
   src/aluno.cpp
+  src/disciplina.cpp
 )
 
 

@@ -177,6 +177,30 @@ src/departamento.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/departamento.cpp.s
 .PHONY : src/departamento.cpp.s
 
+src/disciplina.o: src/disciplina.cpp.o
+.PHONY : src/disciplina.o
+
+# target to build an object file
+src/disciplina.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/disciplina.cpp.o
+.PHONY : src/disciplina.cpp.o
+
+src/disciplina.i: src/disciplina.cpp.i
+.PHONY : src/disciplina.i
+
+# target to preprocess a source file
+src/disciplina.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/disciplina.cpp.i
+.PHONY : src/disciplina.cpp.i
+
+src/disciplina.s: src/disciplina.cpp.s
+.PHONY : src/disciplina.s
+
+# target to generate assembly for a file
+src/disciplina.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProjetoTecProg.dir/build.make CMakeFiles/ProjetoTecProg.dir/src/disciplina.cpp.s
+.PHONY : src/disciplina.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -312,6 +336,9 @@ help:
 	@echo "... src/departamento.o"
 	@echo "... src/departamento.i"
 	@echo "... src/departamento.s"
+	@echo "... src/disciplina.o"
+	@echo "... src/disciplina.i"
+	@echo "... src/disciplina.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
